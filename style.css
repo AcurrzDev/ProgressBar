@@ -1,0 +1,59 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .main-div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .view-icon {
+    width: 100px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .view-count {
+    padding-top: 5px;
+    align-self: center;
+    font-size: 24px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #13585a;
+    -webkit-text-stroke-color: #ffffff;
+    -webkit-text-stroke-width: 0.25px;
+  }
+
+  .view-count2 {
+    padding-top: 5px;
+    align-self: center;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #13585a;
+    -webkit-text-stroke-color: #ffffff;
+    -webkit-text-stroke-width: 0.25px;
+  }
+
+  .progress {
+    width: 300px;
+    height: 30px;
+    background: #13585a;
+    border-radius: 30px;
+    align-self: center;
+    border-style: solid;
+    border-color: #13585a;
+  }
+
+  .progress-bar {
+    width: 30%;
+    height: 30px;
+    background: #d6edee;
+    border-radius: 30px;
+    align-self: center;
+    vertical-align:middle;
+  }
